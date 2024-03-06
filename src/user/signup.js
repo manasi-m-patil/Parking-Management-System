@@ -24,7 +24,6 @@ const Signup = () => {
   const signup =() => {
     // check if user has really entered any value
     
-   /^[a-zA-Z]{}$/
     if (firstName.length === 0) {
       toast.error("please enter first name");
     } else if (lastName.length === 0) {
